@@ -48,6 +48,7 @@
                 android:minHeight="50dp"
                 android:indeterminate="false"/>
             <TextView
+                android:id="@+id/tv_progress_bar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -61,12 +62,56 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:layout_gravity="center"
+            android:gravity="center"
             android:textSize="18sp"
             android:textColor="@color/textColorSecondary"
             android:background="@drawable/default_option_border_bg"
             android:padding="15dp"
-            android:text="Apple"/>
+            tools:text="Apple"/>
+        <TextView
+            android:id="@+id/tv_option_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/textColorSecondary"
+            android:background="@drawable/default_option_border_bg"
+            android:padding="15dp"
+            tools:text="Google"/>
+        <TextView
+            android:id="@+id/tv_option_tree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/textColorSecondary"
+            android:background="@drawable/default_option_border_bg"
+            android:padding="15dp"
+            tools:text="Microsoft"/>
+        <TextView
+            android:id="@+id/tv_option_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/textColorSecondary"
+            android:background="@drawable/default_option_border_bg"
+            android:padding="15dp"
+            tools:text="Oracle"/>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:text="Zatwierdź"/>
 
     </LinearLayout>
 </ScrollView>
