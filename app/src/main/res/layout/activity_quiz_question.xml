@@ -56,7 +56,17 @@
                 android:textSize="14sp"
                 android:text="0/10"/>
         </LinearLayout>
-
+        <TextView
+            android:id="@+id/tv_option_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/textColorSecondary"
+            android:background="@drawable/default_option_border_bg"
+            android:padding="15dp"
+            android:text="Apple"/>
 
     </LinearLayout>
 </ScrollView>
